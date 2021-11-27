@@ -1,6 +1,6 @@
 # `web3-chat-app-react-native`
 
-This project is a fork of [Ethereum React Native Boilerplate](https://github.com/ethereum-boilerplate/ethereum-react-native-boilerplate) and shows how you can easily create your own Web3 Etherium Mobile chat app using Moralis.
+This project is a fork of [Ethereum React Native Boilerplate](https://github.com/ethereum-boilerplate/ethereum-react-native-boilerplate) and shows how you can easily create your own Web3 Etherium Mobile Chat App using Moralis.
 
 |                                                        Chat Screen                                                        |                                              WalletConnect Authentication                                              |
 | :--------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------: |
