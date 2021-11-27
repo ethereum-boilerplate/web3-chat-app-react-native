@@ -17,8 +17,6 @@ import {
   REACT_APP_MORALIS_SERVER_URL,
 } from "@env";
 
-console.log('REACT_APP_MORALIS_APPLICATION_ID===>', REACT_APP_MORALIS_APPLICATION_ID)
-
 interface ProvidersProps {
   readonly children: JSX.Element;
 }
