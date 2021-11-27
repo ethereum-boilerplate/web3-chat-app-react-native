@@ -25,12 +25,6 @@ If you have any questions or need assistance running this project, please post t
 https://github.com/ethereum-boilerplate/web3-chat-app-react-native.git
 ```
 
-💿 Install all dependencies:
-
-```sh
-yarn install
-```
-
 ✏ Rename `.env.example` to `.env` in the main folder and provide your `appId` and `serverUrl` from Moralis ([How to start Moralis Server](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server))
 Example:
 
