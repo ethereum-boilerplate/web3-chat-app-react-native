@@ -232,8 +232,6 @@ PODS:
     - React
   - react-native-safe-area-context (3.2.0):
     - React-Core
-  - react-native-webview (11.14.3):
-    - React-Core
   - React-RCTActionSheet (0.63.4):
     - React-Core/RCTActionSheetHeaders (= 0.63.4)
   - React-RCTAnimation (0.63.4):
@@ -298,7 +296,7 @@ PODS:
     - React-Core
   - RNGestureHandler (1.10.3):
     - React-Core
-  - RNReanimated (2.2.3):
+  - RNReanimated (2.2.4):
     - DoubleConversion
     - FBLazyVector
     - FBReactNativeSpec
@@ -378,7 +376,6 @@ DEPENDENCIES:
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - react-native-get-random-values (from `../node_modules/react-native-get-random-values`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
-  - react-native-webview (from `../node_modules/react-native-webview`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
   - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
   - React-RCTBlob (from `../node_modules/react-native/Libraries/Blob`)
@@ -468,8 +465,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-get-random-values"
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
-  react-native-webview:
-    :path: "../node_modules/react-native-webview"
   React-RCTActionSheet:
     :path: "../node_modules/react-native/Libraries/ActionSheetIOS"
   React-RCTAnimation:
@@ -546,7 +541,6 @@ SPEC CHECKSUMS:
   React-jsinspector: 58aef7155bc9a9683f5b60b35eccea8722a4f53a
   react-native-get-random-values: 1404bd5cc0ab0e287f75ee1c489555688fc65f89
   react-native-safe-area-context: f0906bf8bc9835ac9a9d3f97e8bde2a997d8da79
-  react-native-webview: b83cf1aa6b4453fe53ffcc5896c36cdf37f0383f
   React-RCTActionSheet: 89a0ca9f4a06c1f93c26067af074ccdce0f40336
   React-RCTAnimation: 1bde3ecc0c104c55df246eda516e0deb03c4e49b
   React-RCTBlob: a97d378b527740cc667e03ebfa183a75231ab0f0
@@ -559,7 +553,7 @@ SPEC CHECKSUMS:
   ReactCommon: 73d79c7039f473b76db6ff7c6b159c478acbbb3b
   RNCAsyncStorage: 44539979e1f234262d64d3ce86ec21cceb1b2c5e
   RNGestureHandler: a479ebd5ed4221a810967000735517df0d2db211
-  RNReanimated: 8744fb15baf4c582367d910f4f32f5097fb350cb
+  RNReanimated: e5040efc7c90da0b190a6525fcfc7e1e75973b21
   RNScreens: 21b73c94c9117e1110a79ee0ee80c93ccefed8ce
   RNSVG: a53a5de0d90ec96a6502cc3a4534dfcc0c130622
   RNVectorIcons: 4143ba35feebab8fdbe6bc43d1e776b393d47ac8
@@ -571,4 +565,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: cf27efc4d5d4bf2da08f2dc4a43ed257bec49f9b
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.11.0
