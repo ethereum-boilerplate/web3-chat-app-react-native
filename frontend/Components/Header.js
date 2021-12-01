@@ -1,12 +1,15 @@
-import React from "react";
-import { View, StyleSheet } from "react-native";
 
-import Address from "./Address";
+   
+import React from "react";
+import { View, StyleSheet, Text } from "react-native";
+
+//TODO: Uncomment to show ETH address on header
+//import Address from "./Address";
 
 export default function Header() {
   return (
     <View style={styles.viewContainer}>
-      <Address />
+      <Text style={{fontWeight: 'bold', textAlign: 'left'}}>Defi Group Chat</Text>
     </View>
   );
 }

@@ -1,6 +1,6 @@
 import React, { Component, useEffect } from "react";
 import { StyleSheet, Text, View } from "react-native";
-import { WebView } from "react-native-webview";
+// import { WebView } from "react-native-webview";
 
 const htmlContent = `
 <!doctype html>
@@ -57,7 +57,7 @@ const Blockie = (props) => {
         paddingTop: 10,
         justifyContent: "flex-end",
       }}>
-      <WebView
+      {/* <WebView
         originWhitelist={["*"]}
         ref={(r) => (this.webref = r)}
         source={{ html: htmlContent }}
@@ -67,7 +67,7 @@ const Blockie = (props) => {
         //   justifyContent: "center",
         //   alignItems: "center",
         // }}
-      />
+      /> */}
     </View>
   );
 };
